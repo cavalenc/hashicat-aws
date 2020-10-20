@@ -4,4 +4,5 @@ module "s3-bucket" {
   version = "1.15.0"
   # insert required variables here
   #bucket_prefix = "Carrie-Valencia"
+  create_bucket = true
 }
