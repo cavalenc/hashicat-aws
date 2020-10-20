@@ -23,7 +23,7 @@ resource "aws_subnet" "hashicat" {
 }
 
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "${var.prefix}-Bucket"
+  #bucket = "${var.prefix}-Bucket"
 }
 
 resource "aws_security_group" "hashicat" {
