@@ -1,7 +1,7 @@
 module "s3-bucket" {
-  bucket = "s3-bucket-tb"
+  bucket = "Carrie-Valencia-s3-bucket"
   source  = "app.terraform.io/CarrieV-Training/s3-bucket/aws"  
   version = "1.15.0"
   # insert required variables here
-  bucket_prefix = "Carrie-Valencia"
+  #bucket_prefix = "Carrie-Valencia"
 }
